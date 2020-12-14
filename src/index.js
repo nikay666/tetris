@@ -1,2 +1,3 @@
 import './scss/index.scss';
-console.log('hello');
+import { Tetris } from './js/Tetris/Tetris';
+new Tetris("#app").init();
